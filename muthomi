@@ -1,0 +1,14 @@
+name=(input("enter your name;))
+admno=(input("enter your admission number;))
+class=(input("enter your class;))
+termlyfee=float(input("enter termlyfee;))
+amountpaid=float(input("enter amountpaid;))
+feebalance=termlyfee-amountpaid
+if(feebalance>5000);
+print("NO MEAL CARD ALLOCATED")
+elif(2000<=feebalance<=5000);
+print("ONE WEEK MEAL CARD")
+elif(feebalance<2000);
+print("ONE MONTH MEAL CARD")
+else;
+print("FULL TERM MEAL CARD")
